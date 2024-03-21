@@ -8,6 +8,14 @@ import { CrmDashboardComponent } from './crm/crm-dashboard.component';
 
 const routes: Routes = [
     {
+        path: '',
+        component: DefaultDashboardComponent,
+        data: {
+            title: 'Dashboard ',
+            headerDisplay: "none"
+        }
+    },
+    {
         path: 'default',
         component: DefaultDashboardComponent,
         data: {

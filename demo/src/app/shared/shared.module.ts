@@ -30,7 +30,8 @@ import { SearchPipe } from './pipes/search.pipe';
         SearchPipe
     ],
     providers: [
-        ThemeConstantService
+        
+        
     ]
 })
 

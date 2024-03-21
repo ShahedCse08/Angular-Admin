@@ -9,6 +9,7 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzCheckboxModule } from 'ng-zorro-antd/checkbox';
+import { NzNotificationModule } from 'ng-zorro-antd/notification';
 
 import { Login1Component } from './login-1/login-1.component';
 import { Login2Component } from './login-2/login-2.component';
@@ -24,7 +25,9 @@ const antdModule= [
     NzInputModule,
     NzButtonModule,
     NzCardModule,
-    NzCheckboxModule
+    NzCheckboxModule,
+    NzNotificationModule 
+
 ]
 
 @NgModule({
